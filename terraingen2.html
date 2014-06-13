@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<script src="terraingen2.js"></script>
+<script>
+var slider;
+
+window.onload = function() {
+    canvas = document.getElementById("canvas");
+    context = canvas.getContext("2d");
+    
+    slider = document.getElementById("slider");
+    slider.onchange = function() { draw(this.value, this.value); }
+    slider.value = 2;
+    
+    generate_map();
+};
+
+</script>
+</head>
+<body>
+<canvas id="canvas" width="512" height="512"></canvas>
+<input type="range" id="slider" min="2" max="7">
+</body>
+</html>
