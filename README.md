@@ -1,4 +1,4 @@
 terraingen
 ==========
 
-http://jsfiddle.net/5uAPe/show
+http://jsfiddle.net/7YMxE/show
